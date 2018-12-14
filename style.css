@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    My Site
+	    pixli
         Built with Blocs
 -----------------------------------------------------------------------------------*/
 
@@ -44,27 +44,8 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-lg{
 	padding:100px 50px;
 }
-.bloc-md{
-	padding:50px;
-}
-
-
-/* Group Styles */
-
-.bloc-group{
-	display:flex;
-}
-.bloc-tile-2{
-	width:50%;
-}
-.bloc-tile-3{
-	width:33.33333333%;
-}
-.bloc-tile-4{
-	width:25%;
-}
-.bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
-	width:100%;
+.bloc-sm{
+	padding:20px 50px;
 }
 
 
@@ -158,8 +139,31 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+	width:100%;
+	display:inline-block;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 
+/* iFrame */
+
+iframe{
+	border:0;
+}
 
 
 /* ScrollToTop button */
@@ -186,11 +190,22 @@ button{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"helvetica";
-	color:#333333!important;
+	font-family:"Helvetica";
 }
 .container{
 	max-width:1170px;
+}
+.img-style{
+	width:200px;
+	height:67px;
+	margin-top:18px;
+}
+.img-appstore-butt-style{
+	height:67px;
+	width:200px;
+}
+.link-style{
+	text-decoration:underline;
 }
 
 /* = Colour
@@ -277,5 +292,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	 }
 
 @media (max-width: 575px){
-	 }
+	.footer-link{
+	text-align:center;
+}
+ }
 
