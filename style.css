@@ -41,8 +41,8 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
-.bloc-lg{
-	padding:100px 50px;
+.bloc-md{
+	padding:50px;
 }
 .bloc-sm{
 	padding:20px 50px;
@@ -121,6 +121,14 @@ button{
 	outline: none!important;
 }
 
+.a-block{
+	width:100%;
+	text-align:left;
+	display: inline-block;
+}
+.text-center .a-block{
+	text-align:center;
+}
 
 
 
@@ -139,24 +147,6 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
-/* = Dividers
--------------------------------------------------------------- */
-.divider-h{
-	padding:20px 0;
-	width:100%;
-	display:inline-block;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
-}
-.divider-half{
-	width: 50%;
-	margin: 0 auto;
-}
-.dropdown-menu .divider-h,.dropdown-menu .divider-half{
-	padding:0;
-}
 
 
 /* iFrame */
@@ -203,9 +193,31 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-appstore-butt-style{
 	height:67px;
 	width:200px;
+	margin-top:50px;
 }
 .link-style{
 	text-decoration:underline;
+}
+.img-margin-top{
+	margin-bottom:50px;
+}
+.link-margin-right{
+	margin-right:20px;
+}
+.h4-margin-top{
+	margin-top:40px;
+}
+.h4-imprint-margin-top{
+	margin-top:40px;
+}
+.img-bloc-6-margin-top{
+	margin-top:-1px;
+}
+.row-margin-bottom{
+	margin-bottom:26px;
+}
+.row-bloc-7-margin-bottom{
+	margin-bottom:50px;
 }
 
 /* = Colour
