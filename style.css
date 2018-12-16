@@ -121,14 +121,6 @@ button{
 	outline: none!important;
 }
 
-.a-block{
-	width:100%;
-	text-align:left;
-	display: inline-block;
-}
-.text-center .a-block{
-	text-align:center;
-}
 
 
 
@@ -197,12 +189,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .link-style{
 	text-decoration:underline;
+	margin-right:0px;
 }
 .img-margin-top{
 	margin-bottom:50px;
-}
-.link-margin-right{
-	margin-right:20px;
 }
 .h4-margin-top{
 	margin-top:40px;
@@ -218,6 +208,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .row-bloc-7-margin-bottom{
 	margin-bottom:50px;
+}
+.link-margin-right{
+	margin-right:0px;
+	margin-left:12px;
+}
+.link-margin{
+	margin:10px 10px 10px 10px;
 }
 
 /* = Colour
@@ -298,7 +295,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 @media (max-width: 991px){
-	 }
+	.link-style{
+	width:7.38%;
+}
+.link-margin-left{
+	margin-left:0px;
+}
+ }
 
 @media (max-width: 767px){
 	 }
@@ -306,6 +309,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 @media (max-width: 575px){
 	.footer-link{
 	text-align:center;
+}
+.img-appstore-butt-style{
+	width:200px;
+	height:67px;
 }
  }
 
