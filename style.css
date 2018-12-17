@@ -103,9 +103,25 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
+}
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
 }
 
 /* = Buttons
@@ -178,14 +194,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	max-width:1170px;
 }
 .img-style{
-	width:200px;
-	height:67px;
 	margin-top:18px;
+	width:200px;
+	height:60px;
+	margin-bottom:10px;
 }
 .img-appstore-butt-style{
-	height:67px;
+	margin-top:0px;
 	width:200px;
-	margin-top:50px;
+	height:67px;
 }
 .link-style{
 	text-decoration:underline;
@@ -216,10 +233,27 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .link-margin{
 	margin:10px 10px 10px 10px;
 }
+.divider-margin-bottom{
+	margin-bottom:69px;
+}
+.p-margin-bottom{
+	margin-bottom:42px;
+	margin-top:30px;
+}
+.h5-margin-bottom{
+	margin-bottom:0px;
+	margin-top:31px;
+}
+.p-style{
+	font-size:12px;
+	margin-top:-10px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
 
+
+/* Bloc image backgrounds */
 
 
 
